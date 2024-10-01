@@ -10,6 +10,7 @@ import Sidebar from './components/Sidebar';
 import Footer from './components/Footer'
 import GenAI from './components/GenAIPage/index';
 import Architecture from './components/ArchitecturePage';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   };
   return (
     <Router>
+      <ScrollToTop />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Switch>
