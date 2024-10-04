@@ -22,7 +22,7 @@ function DataEngineeringHome() {
     setHover(!hover);
   };
   return (
-    <HeroContainer id='data Engineering home'>
+    <HeroContainer id='data-Engineering-home'>
       <HeroBg>
         <VideoBg playsInline autoPlay loop muted src={data_video} type='video/mp4' />
       </HeroBg>
@@ -33,7 +33,7 @@ function DataEngineeringHome() {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to= 'about'
+            to= 'datacollection'
             smooth={true}
             duration={500}
             spy={true}

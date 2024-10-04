@@ -6,6 +6,7 @@ import {
   homeObjTwo
 } from '../GenaiSection/genaiData';
 import GenAIHome from './GenAIHome';
+import NavbarGENAI from '../Navbar GenAi';
 
 function GenAI() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,7 @@ function GenAI() {
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
+      <NavbarGENAI toggle={toggle} />
       <GenAIHome />
       <GenaiSection {...homeObjOne} />
       <GenaiSection {...homeObjTwo} />

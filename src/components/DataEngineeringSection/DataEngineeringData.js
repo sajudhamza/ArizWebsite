@@ -3,7 +3,7 @@ import data_processing from "../../videos/data_processing.mp4";
 import data_architecture from "../../videos/data_architecture.mp4";
 
 export const homeObjOne = {
-  id: 'about',
+  id: 'datacollection',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -26,7 +26,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: 'generation',
+  id: 'dataprocessing',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -52,7 +52,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: 'contactus',
+  id: 'dataarchitecture',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,

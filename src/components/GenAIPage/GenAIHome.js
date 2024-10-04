@@ -33,7 +33,7 @@ function GenAIHome() {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to= 'about'
+            to= 'automation'
             smooth={true}
             duration={500}
             spy={true}

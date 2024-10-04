@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
 import SigninPage from './pages/signin';
 import DataEngineering from './components/DataEngineeringPage';
-import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer'
 import GenAI from './components/GenAIPage/index';
@@ -23,7 +22,6 @@ function App() {
     <Router>
       <ScrollToTop />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
       <Switch>
         <Route path='/' component={Home} exact />
         <Route path='/contactus' component={ContactUs} />

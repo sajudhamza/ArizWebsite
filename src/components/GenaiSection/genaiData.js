@@ -3,7 +3,7 @@ import generation from '../../images/generation.png';
 // import contact_us from '../../images/contact_us.png';
 
 export const homeObjOne = {
-  id: 'about',
+  id: 'automation',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -21,7 +21,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: 'generation',
+  id: 'mediageneration',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,

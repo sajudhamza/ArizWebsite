@@ -22,7 +22,7 @@ function ArchitectureHome() {
     setHover(!hover);
   };
   return (
-    <HeroContainer id='gen-ai-home'>
+    <HeroContainer id='cloud-home'>
       <HeroBg>
         <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
@@ -33,7 +33,7 @@ function ArchitectureHome() {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to= 'about'
+            to= 'on-demand'
             smooth={true}
             duration={500}
             spy={true}

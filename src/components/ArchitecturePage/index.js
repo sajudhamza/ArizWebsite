@@ -6,6 +6,7 @@ import {
   homeObjTwo
 } from '../ArchitectureSection/ArchitectureData';
 import ArchitectureHome from './ArchitectureHome';
+import NavbarArch from '../Navbar Architecture';
 
 function Architecture() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,7 @@ function Architecture() {
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
+      <NavbarArch toggle={toggle} />
       <ArchitectureHome />
       <ArchitectureSection {...homeObjOne} />
       <ArchitectureSection {...homeObjTwo} />

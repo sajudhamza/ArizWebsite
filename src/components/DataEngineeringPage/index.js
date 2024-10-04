@@ -7,6 +7,7 @@ import {
   homeObjThree
 } from '../DataEngineeringSection/DataEngineeringData';
 import DataEngineeringHome from './DataEngineeringHome';
+import NavbarData from '../Navbar Data';
 
 function DataEngineering() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ function DataEngineering() {
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
+      <NavbarData toggle={toggle} />
       <DataEngineeringHome />
       <DataEngineeringSection {...homeObjOne} />
       <DataEngineeringSection {...homeObjTwo} />

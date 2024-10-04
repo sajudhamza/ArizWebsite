@@ -53,7 +53,7 @@ const DataEngineeringSection = ({
 </Subtitle>
                 <BtnWrap>
                   <Button
-                    to='gen-ai-home'
+                    to='data-Engineering-home'
                     smooth={true}
                     duration={500}
                     spy={true}

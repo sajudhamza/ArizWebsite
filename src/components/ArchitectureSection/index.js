@@ -52,7 +52,7 @@ const ArchitectureSection = ({
 </Subtitle>
                 <BtnWrap>
                   <Button
-                    to='gen-ai-home'
+                    to='cloud-home'
                     smooth={true}
                     duration={500}
                     spy={true}

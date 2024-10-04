@@ -3,7 +3,7 @@ import architecture from '../../videos/architecture.mp4'
 
 
 export const homeObjOne = {
-  id: 'generation',
+  id: 'on-demand',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -24,7 +24,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: 'about',
+  id: 'platforms',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
