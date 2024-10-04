@@ -4,7 +4,7 @@ import ContactUs from './components/ContactUs';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
 import SigninPage from './pages/signin';
-import DataEngineeringPage from './pages/DataEngineeringPage';
+import DataEngineering from './components/DataEngineeringPage';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer'
@@ -28,7 +28,7 @@ function App() {
         <Route path='/' component={Home} exact />
         <Route path='/contactus' component={ContactUs} />
         <Route path='/signin' component={SigninPage} exact />
-        <Route path='/data-engineering' component={DataEngineeringPage} exact />
+        <Route path='/data-engineering' component={DataEngineering} exact />
         <Route path='/gen-ai' component={GenAI} exact />
         <Route path="/architecture" component={Architecture} />
       </Switch>
