@@ -7,10 +7,15 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Automation',
+  topLine: 'Pipeline',
   headline: 'Data Collection',
   description:
-    'With GEN AI automation it streamlines processes by automating repetitive tasks, freeing up human resources for more strategic activities.',
+    `We use the latest technology to collect and process massive amounts of data..\n
+    Tailored Strategies: We design and implement data collection strategies tailored to your specific needs.\n
+   Diverse Data Sources: We work with structured data from databases (MySQL, PostgreSQL, Oracle) and unstructured data from social media, web scraping, IoT devices, and API integrations.\n
+    Efficient Processes: We leverage cutting-edge technology and industry best practices for accurate, reliable, and timely data acquisition.\n
+   Valuable Insights: Gain valuable insights, make data-driven decisions, and drive your business forward.\n
+   Customized Solutions: Lets discuss your data collection needs and explore how we can help you achieve your goals.`,
   buttonLabel: 'Scroll Top',
   imgStart: false,
   img: data_engineering_1,
@@ -25,10 +30,18 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Media Generation',
-  headline: 'GEN AI for Creativity',
+  topLine: 'Step 2',
+  headline: 'Data Processing',
   description:
-    'Gen AI can enhance creativity by generating new ideas, inspiring novel approaches, and providing a diverse range of perspectives. It can also assist in refining existing creative works, suggesting improvements, and exploring alternative possibilities.',
+    `Our data processing services ensure that the collected data is transformed into valuable insights...\n
+    Transform Raw Data
+    We transform your raw data into meaningful insights for analysis and decision-making.\n
+    Powerful Platforms
+    We leverage leading platforms like Apache Hadoop, Apache Spark, and Google Cloud Dataflow.\n
+    Comprehensive Services
+    Our team specializes in data cleaning, filtering, aggregation, and integration.\n
+    Unlock Data Potential
+    Unlock the full potential of your data with our expert data processing services.`,
   buttonLabel: 'Home',
   imgStart: true,
   video: data_processing,
@@ -43,10 +56,19 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Join our Team',
-  headline: 'Joining Our Team is Easy',
+  topLine: 'Complete Solution',
+  headline: 'Data Architecture',
   description:
-    "Contact us to know more about open position",
+    `Design Robust Systems:
+    We design scalable and robust data architectures tailored to your specific needs.\n
+    Optimize Performance:
+    We optimize data storage and retrieval processes for maximum efficiency.\n
+    Integrate Data Sources:
+    We integrate data from various sources into a unified platform.\n
+    Ensure Data Quality: 
+    We implement data quality measures to maintain data accuracy and integrity.\n
+    Future-Proof Solutions: 
+    We build data architectures that can adapt to your evolving business requirements.`,
   buttonLabel: 'Contact Us',
   imgStart: false,
   video: data_architecture,
@@ -55,3 +77,5 @@ export const homeObjThree = {
   primary: false,
   darkText: true
 };
+
+

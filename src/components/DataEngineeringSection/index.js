@@ -15,6 +15,7 @@ import {
   Img
 } from './InfoElements';
 
+
 const DataEngineeringSection = ({
   lightBg,
   imgStart,
@@ -42,7 +43,16 @@ const DataEngineeringSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>
+  {description.split('\n').map((line, index) => (
+    <React.Fragment key={index}>
+      {line}
+      <br />
+    </React.Fragment>
+  ))}
+</Subtitle>
+
+
                 <BtnWrap>
                   <Button
                     to='gen-ai-home'
