@@ -39,7 +39,7 @@ const Services = () => {
         <Link to="/architecture" style={{ textDecoration: 'none' }}>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Complete Architecture</ServicesH2>
+          <ServicesH2>Cloud Architecture</ServicesH2>
           <ServicesP>
             Be Cloud or On-prem, we architect solutions tailored to your business.
           </ServicesP>

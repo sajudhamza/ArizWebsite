@@ -41,11 +41,24 @@ export const Column1 = styled.div`
   grid-area: col1;
 `;
 
+// export const Column2 = styled.div`
+//   margin-bottom: 15px;
+//   padding: 0 15px;
+//   grid-area: col2;
+// `;
+
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
+  display: flex;
+  justify-content: flex-start;   /* Align content to the left */
+  align-items: flex-start;       /* Align content to the top-left */
+  flex-direction: column;
+  width: 100%;                   /* Ensure full width */
+  height: auto;                  /* Adjust height dynamically */
 `;
+
 
 export const TextWrapper = styled.div`
   max-width: 540px;
@@ -88,10 +101,19 @@ export const BtnWrap = styled.div`
   justify-content: flex-start;
 `;
 
+// export const ImgWrap = styled.div`
+//   max-width: 555px;
+//   height: 100%;
+// `;
+
 export const ImgWrap = styled.div`
-  max-width: 555px;
-  height: 100%;
+  width: 100%;                /* Ensure full width */
+  max-width: 100%;            /* Allow it to stretch fully */
+  height: auto;               /* Adjust height dynamically */
+  display: flex;              /* Flexbox for better alignment */
+  justify-content: flex-start; /* Align content to the left */
 `;
+
 
 export const Img = styled.img`
   width: 100%;
@@ -100,3 +122,26 @@ export const Img = styled.img`
   margin-left: 10px;
   padding-right: 0;
 `;
+
+// export const Video = styled.video`
+//   width: 100%;
+//   max-width: 100px;  /* Increase the maximum width */
+//   height: 1200px;  /* Maintain aspect ratio */
+//   margin-top: 0;
+//   margin-right: 0;
+//   margin-left: 0px;
+//   padding-right: 0;
+//   border-radius: 10px; /* Optional: To match image styling or give a softer look */
+// `;
+
+export const Video = styled.video`
+  width: 100%;                /* Take full width of the parent container */
+  max-width: 900px;           /* Set a maximum width for the video */
+  height: auto;               /* Maintain aspect ratio */
+  border-radius: 10px;        /* Optional: Rounded corners */
+  margin: 0;                  /* Remove any margin */
+  padding: 0;                 /* Ensure no extra padding */
+  display: block;
+`;
+
+

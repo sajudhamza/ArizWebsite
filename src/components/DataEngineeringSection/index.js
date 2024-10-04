@@ -51,8 +51,6 @@ const DataEngineeringSection = ({
     </React.Fragment>
   ))}
 </Subtitle>
-
-
                 <BtnWrap>
                   <Button
                     to='gen-ai-home'

@@ -24,6 +24,7 @@ const ArchitectureSection = ({
   description,
   buttonLabel,
   img,
+  video,
   alt,
   id,
   primary,
@@ -41,7 +42,14 @@ const ArchitectureSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>
+  {description.split('\n').map((line, index) => (
+    <React.Fragment key={index}>
+      {line}
+      <br />
+    </React.Fragment>
+  ))}
+</Subtitle>
                 <BtnWrap>
                   <Button
                     to='gen-ai-home'
@@ -61,7 +69,23 @@ const ArchitectureSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt} />
+              {video ? (
+                  <video
+                  src={video}
+                  alt={alt}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  style={{
+                    width: '100vh',         // Set width as a percentage of its container
+                    maxWidth: '900px',    // Maximum width to prevent it from becoming too large
+                    height: '100vh',       // Maintain aspect ratio based on the width
+                    objectFit: 'contain'  // Make sure it scales correctly within its container
+                  }} />
+                ) : (
+                  <Img src={img} alt={alt} />
+                )}
               </ImgWrap>
             </Column2>
           </InfoRow>

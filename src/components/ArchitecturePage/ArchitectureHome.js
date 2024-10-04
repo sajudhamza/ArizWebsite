@@ -29,7 +29,7 @@ function ArchitectureHome() {
       <HeroContent>
         <HeroH1>The Ariz Solution <br/> Migrate your Infrastructure to Cloud with Ease</HeroH1>
         <HeroP>
-        Ariz can Architect your business into the cloud with peace of mind with its complete solutions architects.
+        Ariz can Architect and migrate your business into the cloud seamlessly with its expert solutions architects.
         </HeroP>
         <HeroBtnWrapper>
           <Button
