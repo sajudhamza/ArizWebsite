@@ -44,8 +44,8 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
               <FooterLink to='/'>Contact</FooterLink>
-              <FooterLink to="/signin">Tel : <br/> +1(201)890-2933</FooterLink>
-              <FooterLink to="/signin">Email: info@Arizinc.com</FooterLink>
+              <FooterLink as="a" href="tel:+12018902933"> Tel : <br/> +1(201)890-2933</FooterLink>
+              <FooterLink as="a" href="mailto:info@Arizinc.com"> Email: info@Arizinc.com</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
