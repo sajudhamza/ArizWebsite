@@ -1,11 +1,11 @@
 import React from 'react';
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
-} from 'react-icons/fa';
+// import {
+//   FaFacebook,
+//   FaInstagram,
+//   FaYoutube,
+//   FaTwitter,
+//   FaLinkedin
+// } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import {
   FooterContainer,
@@ -19,8 +19,8 @@ import {
   SocialMediaWrap,
   SocialLogo,
   WebsiteRights,
-  SocialIcons,
-  SocialIconLink
+  // SocialIcons,
+  // SocialIconLink
 } from './FooterElements';
 import logo_white from '../../images/Logo-white.png';
 
@@ -51,9 +51,9 @@ const Footer = () => {
           <FooterLinksWrapper>
           <FooterLinkItems>
           <FooterLinkTitle>Services</FooterLinkTitle>
-          <FooterLink to="/signin">Data Engineering</FooterLink>
-          <FooterLink to="/signin">GEN AI Solutions</FooterLink>
-          <FooterLink to="/signin">Architecture Solutions</FooterLink>
+          <FooterLink to="/data-engineering">Data Engineering</FooterLink>
+          <FooterLink to="/gen-ai">GEN AI Solutions</FooterLink>
+          <FooterLink to="/architecture">Architecture Solutions</FooterLink>
           <FooterLink to="/signin">Agency</FooterLink>
           </FooterLinkItems>
             
@@ -65,7 +65,7 @@ const Footer = () => {
             <img src={logo_white} alt="Ariz Inc Logo" style={{height: '70px', width: 'auto'}} />
             </SocialLogo>
             <WebsiteRights>Ariz  ©  {new Date().getFullYear()} All rights reserved.</WebsiteRights>
-            <SocialIcons>
+            {/* <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
@@ -90,7 +90,7 @@ const Footer = () => {
               <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
-            </SocialIcons>
+            </SocialIcons> */}
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>
