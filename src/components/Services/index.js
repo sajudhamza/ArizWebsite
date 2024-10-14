@@ -23,7 +23,7 @@ const Services = () => {
           <ServicesIcon src={Icon1} />
           <ServicesH2>Data Engineering</ServicesH2>
           <ServicesP>
-            We help reach you goals through data collection and Engineering techniques.
+            We help reach your goals through data collection and Engineering techniques.
           </ServicesP>
         </ServicesCard>
         </Link>
